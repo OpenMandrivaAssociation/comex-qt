@@ -1,7 +1,7 @@
 Summary:   QT user interface for comex project
 Name:      comex-qt
 Version:   0.1.5.2
-Release:   %mkrel 1
+Release:   %mkrel 2
 License:   GPLv2
 #ExcludeArch: ppc64
 Group:     Office
@@ -24,6 +24,7 @@ Requires: mono >= 1.2.3
 Requires: log4net
 Requires: comex-base >= 0.1.7
 Requires: qyoto
+Requires: qyoto-devel
 
 
 %description
