@@ -1,7 +1,7 @@
 Summary:   QT user interface for comex project
 Name:      comex-qt
-Version:   0.1.5.2
-Release:   %mkrel 2
+Version:   0.1.6.0
+Release:   %mkrel 1
 License:   GPLv2
 #ExcludeArch: ppc64
 Group:     Office
@@ -12,17 +12,17 @@ BuildArch: noarch
 # don't generate debug file because is empty
 # % define debug_package %{nil}
 
-BuildRequires: mono >= 1.2.3
+BuildRequires: mono
 BuildRequires: log4net-devel
-BuildRequires: comex-base-devel >= 0.1.7
+BuildRequires: comex-base-devel >= 0.1.8.4
 BuildRequires: qyoto
 BuildRequires: qyoto-devel
 BuildRequires: pinentry-qt4
 BuildRequires: pkgconfig
 
-Requires: mono >= 1.2.3
+Requires: mono
 Requires: log4net
-Requires: comex-base >= 0.1.7
+Requires: comex-base >= 0.1.8.4
 Requires: qyoto
 Requires: qyoto-devel
 
@@ -59,3 +59,9 @@ rm -rf %{buildroot}
 
 
 
+%changelog
+* Thu Sep 29 2011 Armando Basile <hmandevteam@gmail.com> 0.1.6.0-1mdv2012.0
+- release 0.1.6.0
+
+* Thu Sep 01 2011 Armando Basile <hmandevteam@gmail.com> 0.1.5.2-1mdv2012.0
+- release 0.1.5.2
