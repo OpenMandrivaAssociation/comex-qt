@@ -1,6 +1,6 @@
 Summary:   QT user interface for comex project
 Name:      comex-qt
-Version:   0.1.6.0
+Version:   0.1.6.2
 Release:   %mkrel 1
 License:   GPLv2
 #ExcludeArch: ppc64
@@ -14,7 +14,7 @@ BuildArch: noarch
 
 BuildRequires: mono
 BuildRequires: log4net-devel
-BuildRequires: comex-base-devel >= 0.1.8.4
+BuildRequires: comex-base-devel >= 0.1.8.5
 BuildRequires: qyoto
 BuildRequires: qyoto-devel
 BuildRequires: pinentry-qt4
@@ -22,7 +22,7 @@ BuildRequires: pkgconfig
 
 Requires: mono
 Requires: log4net
-Requires: comex-base >= 0.1.8.4
+Requires: comex-base >= 0.1.8.5
 Requires: qyoto
 Requires: qyoto-devel
 
@@ -56,5 +56,4 @@ rm -rf %{buildroot}
 %_prefix/lib/%{name}/
 %{_datadir}/pixmaps/%{name}.png
 %{_datadir}/applications/%{name}.desktop
-
 
