@@ -57,3 +57,21 @@ rm -rf %{buildroot}
 %{_datadir}/pixmaps/%{name}.png
 %{_datadir}/applications/%{name}.desktop
 
+
+
+%changelog
+* Sun Oct 30 2011 Armando Basile <hman@mandriva.org> 0.1.6.2-1
++ Revision: 707882
+- release 0.1.6.2
+
+* Tue Oct 04 2011 Armando Basile <hman@mandriva.org> 0.1.6.0-1
++ Revision: 702989
+- removed changelog section from spec file
+- added tarball
+- release 0.1.6.0
+
+* Mon Sep 26 2011 Armando Basile <hman@mandriva.org> 0.1.5.2-2
++ Revision: 701399
+- added qyoto-devel as requires, qyoto use libqyoto.so that is in qyoto-devel package
+- import comex-qt
+
